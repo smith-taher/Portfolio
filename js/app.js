@@ -130,7 +130,7 @@ $(".about_button").click(function() {
 
 $(".portfolio_button").click(function() {
     $('html, body').animate({
-        scrollTop: $("#portfolio").offset().top
+        scrollTop: $(".portfolio").offset().top
     }, 1500);
     $('.menu li').removeClass('selected');
     $(this).children().addClass('selected');
